@@ -1,0 +1,22 @@
+footer{
+    /* border: 2px solid red; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-link{
+    display: flex;
+    gap: 20px;
+}
+.footer-link a{
+    text-decoration: none;
+    color: black;
+}
+.footer-link h4{
+    cursor: pointer;
+}
+.footer-link a:hover{
+    color: grey;
+    text-decoration: underline;
+}

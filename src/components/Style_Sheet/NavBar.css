@@ -1,0 +1,135 @@
+.main-nav{
+    width: 98vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 9vh;
+    gap: 30vw;
+}
+
+
+.main-nav-left{
+    width: 30%;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: right;
+}
+.main-nav-left ul{
+    display: flex;
+    height: 100%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.main-nav-left ul a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 9px;
+    transition: all;
+    transition-duration: 0.5s;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.main-nav-left ul li:last-child a{
+    text-decoration: none;
+    color: rgb(243, 171, 14);
+    padding: 10px;
+    border-radius: 9px;
+    transition: all;
+    transition-duration: 0.5s;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.main-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    cursor: pointer;
+}
+.main-logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav-left ul:first-child img{
+    width: 4vw;
+}
+
+.main-nav-right{
+    display: flex;
+    width: 25%;
+    justify-content: left;
+    /* border: 2px solid red; */
+    align-items: center;
+    gap: 2vw;
+}
+
+/* .main-nav-right a{
+    text-decoration: none;
+    color: black;
+
+} */
+
+.main-nav-pre p a{
+    text-decoration: none;
+    color: rgb(243, 171, 14);
+    padding: 10px;
+    border-radius: 9px;
+    transition: all;
+    transition-duration: 0.5s;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.main-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.main-login button a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-login button{
+    width: 65px;
+    height: 30px;
+    border-radius: 9px;
+    border: 1px solid grey;
+    transition: all;
+    transition-duration: 0.5s;
+    font-weight: 400;
+}
+
+.main-nav-left ul li:first-child a:hover{
+    color: black;
+    background-color: rgba(243, 171, 14, 0);
+}
+.main-nav-left ul li:last-child a:hover{
+    color: black;
+    background-color: rgb(243, 171, 14);
+}
+.main-nav-left ul li a:hover{
+    color: white;
+    background-color:black;
+}
+
+.main-nav-pre p a:hover{
+    color: black;
+    background-color: rgb(243, 171, 14);
+}
+
+.profile-icon {
+    font-size: 2rem; /* Adjust the size as needed */
+    display: inline-block; /* Ensure proper spacing */
+    color: black; /* Change color as needed */
+    transition: transform 0.2s; /* Optional hover effect */
+}

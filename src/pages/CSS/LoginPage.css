@@ -1,0 +1,90 @@
+.log-in-from{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* border: 2px solid red; */
+}
+.log-from{
+    width: 28vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(155, 0, 155, 0.733);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 1px rgb(68, 29, 62);
+    transition: all;
+    transition-duration: 0.5s;
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+.log-from:hover{
+    box-shadow: 0px 0px 20px 2px rgb(68, 29, 62);
+}
+
+.log-from form{
+    margin: 0px auto;
+    width: 80%;
+    height: 30vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-from input{
+    width: 85%;
+    height: 40px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 9px;
+    border: 1px solid grey;
+}
+.log-from button{
+    width: 80%;
+    height: 40px;
+    padding: 10;
+    border-radius: 20px;
+    border: 1px solid rgba(97, 97, 97, 0.801);
+    cursor: pointer;
+    /* margin-left: 2vw; */
+    color: black;
+    background-color: rgba(97, 97, 97, 0.801);
+}
+
+.log-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .form-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.error-message{
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    color: rgb(99, 1, 1);
+    font-size: 18px;
+    margin-top: 4px;
+}

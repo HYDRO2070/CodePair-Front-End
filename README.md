@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# CodePair Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **CodePair Frontend** repository! CodePair is an innovative platform designed to help users enhance their coding skills through a wide array of Data Structures and Algorithms (DSA) challenges. Built with **React**, our frontend provides a seamless and interactive user experience.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [API Integration](#api-integration)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Interactive User Interface**: A modern and responsive design for an optimal coding experience.
+- **User Authentication**: Secure sign-up and login functionalities with JWT.
+- **Problem Sets**: Explore a wide variety of coding problems, categorized by difficulty.
+- **Code Editor**: An integrated code editor that supports syntax highlighting and error detection.
+- **Real-Time Code Execution**: Write, run, and test your code in multiple programming languages.
+- **User Profiles**: View your coding stats, including solved problems and challenges completed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology Stack
 
-### `npm test`
+- **Frontend**: 
+  - **React**: A powerful JavaScript library for building user interfaces.
+  - **Redux**: For state management, ensuring a consistent application state.
+  - **Axios**: For making HTTP requests to the backend API.
+  - **React Router**: For seamless navigation between different pages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Styling**: 
+  - **CSS/SCSS**: For custom styling and layout designs.
+  - **Bootstrap/Tailwind CSS** (if applicable): For responsive design.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To set up the CodePair frontend locally, follow these instructions:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/YOUR_GITHUB_USERNAME/CodePair-Frontend.git
+    cd CodePair-Frontend
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+3. **Environment Variables**: Create a `.env` file in the root directory and add your API URL:
+    ```
+    REACT_APP_API_URL=http://localhost:3000
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Start the Development Server**:
+    ```bash
+    npm start
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Access the Application**: Open your browser and go to `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Sign Up / Log In**: Create a new account or log in to an existing account.
+- **Explore Problems**: Navigate to the problem sets and select challenges to solve.
+- **Code Submission**: Write and submit your code, and receive immediate feedback.
+- **View Profile**: Check your user profile for statistics on solved problems.
 
-## Learn More
+## API Integration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The CodePair frontend communicates with the backend API to fetch data. Key API endpoints include:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **`POST /api/signup`**: Register a new user.
+- **`POST /api/login`**: Authenticate a user and obtain a JWT.
+- **`GET /api/problemset`**: Retrieve all available problems.
+- **`POST /api/run-code`**: Submit code for execution and get results.
 
-### Code Splitting
+For a complete list of API endpoints, refer to the [backend repository](https://github.com/HYDRO2070/CodePair-Back-End).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+We welcome contributions! If you'd like to contribute to CodePair, please fork the repository and create a pull request. Make sure to follow the project's coding standards and guidelines.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for checking out CodePair! We hope you find it useful for sharpening your coding skills. Happy coding!

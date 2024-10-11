@@ -39,7 +39,7 @@ To set up the CodePair frontend locally, follow these instructions:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/YOUR_GITHUB_USERNAME/CodePair-Front-End.git
+    git clone https://github.com/HYDRO2070/CodePair-Front-End.git
     cd CodePair-Front-End
     ```
 
